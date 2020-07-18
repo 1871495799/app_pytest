@@ -1,0 +1,101 @@
+{
+  "uid" : "dddbc799adb4ece6",
+  "name" : "TestAllureReport.test_b[2]",
+  "fullName" : "test_allure_report.TestAllureReport.test_b[2]",
+  "historyId" : "5f1732f73d8ac4858a54c85c85bff1d2",
+  "time" : {
+    "start" : 1595042921950,
+    "stop" : 1595042921983,
+    "duration" : 33
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 != 2",
+  "statusTrace" : "self = <test_allure_report.TestAllureReport object at 0x000002B0EB760648>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    # 添加测试步骤说明\n    @allure.step(\"第二步\")\n    # 添加错误级别\n    # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_b(self, data):\n        print(\"test_b\")\n        # 添加描述信息\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts\\test_allure_report.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 != 2",
+    "statusTrace" : "self = <test_allure_report.TestAllureReport object at 0x000002B0EB760648>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    # 添加测试步骤说明\n    @allure.step(\"第二步\")\n    # 添加错误级别\n    # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_b(self, data):\n        print(\"test_b\")\n        # 添加描述信息\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts\\test_allure_report.py:24: AssertionError",
+    "steps" : [ {
+      "name" : "第二步",
+      "time" : {
+        "start" : 1595042921951,
+        "stop" : 1595042921951,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_allure_report.TestAllureReport object at 0x000002B0EB760648>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    # 添加测试步骤说明\n    @allure.step(\"第二步\")\n    # 添加错误级别\n    # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_b(self, data):\n        print(\"test_b\")\n        # 添加描述信息\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts\\test_allure_report.py:24: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7301e014f207dfa4",
+        "name" : "错误信息",
+        "source" : "7301e014f207dfa4.txt",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-F3R2I45"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12360-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAllureReport.test_b[2]"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dddbc799adb4ece6.json",
+  "parameterValues" : [ ]
+}

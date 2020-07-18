@@ -1,0 +1,51 @@
+[ {
+  "uid" : "69478fb4c38310d1",
+  "name" : "TestAllureReport.test_a",
+  "time" : {
+    "start" : 1595042921942,
+    "stop" : 1595042921946,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c869fe3f74f82742",
+  "name" : "TestAllureReport.test_b[1]",
+  "time" : {
+    "start" : 1595042921947,
+    "stop" : 1595042921948,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1119fa08cbd9b586",
+  "name" : "TestAllureReport.test_b[3]",
+  "time" : {
+    "start" : 1595042921985,
+    "stop" : 1595042921986,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dddbc799adb4ece6",
+  "name" : "TestAllureReport.test_b[2]",
+  "time" : {
+    "start" : 1595042921950,
+    "stop" : 1595042921983,
+    "duration" : 33
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64232928c9e06cfa",
+  "name" : "TestSearchContent.test_search_btn[wlan]",
+  "time" : {
+    "start" : 1595042921988,
+    "stop" : 1595042931330,
+    "duration" : 9342
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

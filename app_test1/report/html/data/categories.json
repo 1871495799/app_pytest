@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 2 != 2",
+      "children" : [ {
+        "name" : "TestAllureReport.test_b[2]",
+        "uid" : "dddbc799adb4ece6",
+        "parentUid" : "46e237b74d8f43a081a3467b827ad3c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595042921950,
+          "stop" : 1595042921983,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46e237b74d8f43a081a3467b827ad3c6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B0EB7A1F08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "TestSearchContent.test_search_btn[wlan]",
+        "uid" : "64232928c9e06cfa",
+        "parentUid" : "87d215d81a7fdb3a5e8fd4efb983dc24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595042921988,
+          "stop" : 1595042931330,
+          "duration" : 9342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87d215d81a7fdb3a5e8fd4efb983dc24"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

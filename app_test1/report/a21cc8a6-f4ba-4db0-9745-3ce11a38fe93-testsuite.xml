@@ -1,0 +1,106 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1595045810333" stop="1595045810374">
+  <name>test_allure_report</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1595045810333" status="passed" stop="1595045810335">
+      <name>TestAllureReport.test_a</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1384-MainThread"/>
+        <label name="host" value="DESKTOP-F3R2I45"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1595045810335" status="passed" stop="1595045810335">
+          <name>第一步</name>
+          <title>第一步</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1595045810336" status="passed" stop="1595045810338">
+      <name>TestAllureReport.test_b[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1384-MainThread"/>
+        <label name="host" value="DESKTOP-F3R2I45"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1595045810337" status="passed" stop="1595045810338">
+          <name>第二步</name>
+          <title>第二步</title>
+          <attachments>
+            <attachment source="d17f8c5a-b7e1-429a-9083-e6242e2c8e60-attachment.txt" title="错误信息" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1595045810339" status="failed" stop="1595045810369">
+      <name>TestAllureReport.test_b[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test_allure_report.TestAllureReport object at 0x000001BEFF7C2BC8&gt;, data = 2
+
+    @pytest.mark.parametrize('data', [1,2,3])
+    # 添加测试步骤说明
+    @allure.step("第二步")
+    # 添加错误级别
+    # @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test_b(self, data):
+        print("test_b")
+        # 添加描述信息
+        allure.attach("错误信息", "a不等于2")
+&gt;       assert data != 2
+E       assert 2 != 2
+
+scripts\test_allure_report.py:24: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1384-MainThread"/>
+        <label name="host" value="DESKTOP-F3R2I45"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1595045810340" status="failed" stop="1595045810340">
+          <name>第二步</name>
+          <title>第二步</title>
+          <attachments>
+            <attachment source="db49cc97-18d2-4253-9014-700843feba12-attachment.txt" title="错误信息" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1595045810372" status="passed" stop="1595045810374">
+      <name>TestAllureReport.test_b[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="1384-MainThread"/>
+        <label name="host" value="DESKTOP-F3R2I45"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1595045810374" status="passed" stop="1595045810374">
+          <name>第二步</name>
+          <title>第二步</title>
+          <attachments>
+            <attachment source="0e2548b7-fc69-42da-acd1-30ffe7daf526-attachment.txt" title="错误信息" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

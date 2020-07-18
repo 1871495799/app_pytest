@@ -1,0 +1,92 @@
+{
+  "uid" : "1119fa08cbd9b586",
+  "name" : "TestAllureReport.test_b[3]",
+  "fullName" : "test_allure_report.TestAllureReport.test_b[3]",
+  "historyId" : "498cfa9162dedf00332858a41ec05b97",
+  "time" : {
+    "start" : 1595042921985,
+    "stop" : 1595042921986,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第二步",
+      "time" : {
+        "start" : 1595042921986,
+        "stop" : 1595042921986,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a865d6f5dfbb74a2",
+        "name" : "错误信息",
+        "source" : "a865d6f5dfbb74a2.txt",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-F3R2I45"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12360-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAllureReport.test_b[3]"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1119fa08cbd9b586.json",
+  "parameterValues" : [ ]
+}
